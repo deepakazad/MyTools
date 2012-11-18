@@ -5,8 +5,10 @@ import java.io.PrintStream;
 import java.text.MessageFormat;
 
 /**
- * @author Jeeeyul 2011. 11. 1. ?? 4:36:51
- * @since M1.10
+ * @author Jeeeyul 2011. 11. 1
+ * 
+ *         This class has been adapted from
+ *         http://jeeeyul.wordpress.com/2012/10/18/make-system-out-println-rocks/
  */
 public class DebugStream extends PrintStream {
 	private static final DebugStream INSTANCE = new DebugStream();

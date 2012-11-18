@@ -1,0 +1,2 @@
+- Just include this plugin in an Eclipse Application Launch Configuration.
+- All sysouts will be prefixed with 'file : line number : method name' information
