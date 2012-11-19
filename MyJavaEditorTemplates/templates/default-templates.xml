@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates>
+
+<template name="debugout" description="%Templates.debugout" id="com.eclipse.jdt.ui.templates.debugout" context="java-statements" enabled="true" autoinsert="true">
+	System.out.println("${enclosing_type}#${enclosing_method}(..)");${cursor}
+</template>
+
+</templates>
